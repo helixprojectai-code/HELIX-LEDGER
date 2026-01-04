@@ -1,0 +1,4 @@
+Timestamp,Marker,Cost,Content
+"2026-01-04T04:22:41.954730","[FACT]",15,"[FACT] The Helix Charter was amended on 2026-01-03...."
+"2026-01-04T04:22:41.954893","[REASONED]",10,"[REASONED] The pricing engine is now active...."
+"2026-01-04T04:22:41.954927","[HYPOTHESIS]",5,"[HYPOTHESIS] This will lead to more efficient resource use...."
