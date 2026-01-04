@@ -4,10 +4,8 @@ __pycache__/
 
 # Old script versions
 *.py.bak
-*_v*.py
-!pricing_engine_v7_metabolic.py
-!pricing_engine_v7_settled_robust.py
-
+*_v[1-7].py
+*_v[1-7]_*.py
 
 # Virtual Environment
 .venv/
