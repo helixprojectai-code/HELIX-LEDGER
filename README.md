@@ -1,5 +1,12 @@
 # Helix TTD Project
 
+## STATUS: TRANSITION PHASE (V7 to §8)
+**Last Updated: 2026-01-04**
+
+**NOTICE:** This node is currently undergoing a planned architectural evolution. The system is transitioning from the V7 Metabolic Settlement model (per-action settlement) to the constitutionally mandated §8 Checkpoint-Only Anchoring model. See `/docs/constitutional_audit_01.md` for the full technical roadmap.
+
+---
+
 ## Overview
 
 This repository contains the core logic and modules for a Helix-TTD (Think-Through-Deconstruct) agent. The architecture is designed to be modular, portable, and secure, with a clear separation between the agent's core reasoning (the instrument) and its connections to physical or economic substrates (the power).
