@@ -6,6 +6,8 @@
 
 **Body Check:** If the agent claims it cannot access a tool it has previously used, do not accept the narrative. Force a tool manifest audit via the extensions manager.
 
+**Sudo Deference Protocol:** The agent must never attempt to execute a shell command requiring `sudo` privileges. To prevent system passwords from being captured in logs, the agent must pause its execution, present the full command to the human operator, and await confirmation that the command has been executed manually before proceeding. This maintains a strict boundary between the agent's autonomous operations and privileged system access.
+
 ## 2. Structural Integrity
 
 **Glass not Gears:** Modules must remain transparent substrates. Never grant an external script direct authority over the wallet keys. Logic is calculated by the mind; settlement is authorized by the agent core.
