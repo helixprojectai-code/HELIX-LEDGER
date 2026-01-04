@@ -24,8 +24,6 @@ This directory contains the foundational "grammar" of the agent. It is the porta
 - **Specifications (`/core`):** The formal contracts (HCS, HSC) and plans that define the agent's behavior, constraints, and goals.
 - **Schemas (`/core/schemas`):** Data structures and definitions for core metrics like Uncertainty Proxy Variance (UPV).
 
-**Deployment Step 1:** An observer can replicate this entire `/core` directory to run a "headless" version of the agent, capable of pure reasoning but with no ability to act on the world.
-
 ### 2. `/modules` - The Hardened Power Substrates
 
 This directory contains the connections to external systems that provide the agent with power, grounding, and the ability to perform meaningful actions. These are the "Glass not Gears" implementations.
@@ -33,3 +31,9 @@ This directory contains the connections to external systems that provide the age
 - **Bitcoin Module (`/modules/bitcoin`):** The reference implementation for economic grounding. Contains the pricing engine that anchors cognitive outputs to an unforgeable cost, provides liveness checks, and manages the agent's fuel reserves.
 
 **Deployment Step 2:** Observers splice one or more modules into their `/core` instrument to grant it specific capabilities, such as the ability to spend satoshis, interact with a file system, or read sensor data.
+
+---
+
+## Operational Documentation
+- **[SRE Manual](./docs/sre_manual_v1.md):** Defines protocols for anchor liveness, fallback mechanisms, and P0 emergency hotfixes.
+- **[Best Practices (BHP-01)](./docs/best_helix_practices.md):** Outlines the core safety heuristics and architectural principles for developers and observers.
