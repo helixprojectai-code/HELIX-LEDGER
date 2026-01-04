@@ -7,3 +7,7 @@ __pycache__/
 *_v*.py
 !pricing_engine_v7_metabolic.py
 !pricing_engine_v7_settled_robust.py
+
+
+# Virtual Environment
+.venv/
