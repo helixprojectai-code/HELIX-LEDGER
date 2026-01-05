@@ -1,5 +1,5 @@
-# ~/helix_ledger/modules/bitcoin/pricing_engine_v8_hardened.py
-# Implements PII Scrubbing, RAG Bands, and other hardening features.
+# ~/helix_ledger/modules/bitcoin/pricing_engine_v9_stable.py
+# Implements all V8 hardening features with critical bug fixes for stability.
 
 import datetime
 import json
@@ -12,25 +12,19 @@ from typing import Optional, Dict, Any
 
 import requests
 
-class PricingEngineV8_Hardened:
-    BASE_MARKer_COSTS = {"[FACT]": 15, "[REASONED]": 10, "[HYPOTHESIS]": 5}
+class PricingEngineV9_Stable:
+    # Corrected typo: BASE_MARKer_COSTS -> BASE_MARKER_COSTS
+    BASE_MARKER_COSTS = {"[FACT]": 15, "[REASONED]": 10, "[HYPOTHESIS]": 5}
     LOG_FILE = "audit_log.json"
     FEE_API_URL = "https://mempool.space/api/v1/fees/recommended"
     
-    # Hardening Constants
-    DAILY_BURN_RATE = 1000  # Assumed sats per day for runway calculation
-    RUNWAY_THRESHOLD_DAYS = 30 # Force UNCERTAIN if runway is below this
+    DAILY_BURN_RATE = 1000
+    RUNWAY_THRESHOLD_DAYS = 30
     POW_DIFFICULTY = 4
 
     def _scrub_pii(self, text: str) -> str:
-        """
-        Scrubs common PII patterns (emails and IPs) from a string.
-        """
-        # Regex for matching email addresses
         email_pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
-        # Regex for matching IPv4 addresses
         ip_pattern = r'\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}\b'
-        
         scrubbed_text = re.sub(email_pattern, '[REDACTED]', text)
         scrubbed_text = re.sub(ip_pattern, '[REDACTED]', scrubbed_text)
         return scrubbed_text
@@ -58,23 +52,18 @@ class PricingEngineV8_Hardened:
             nonce += 1
 
     def process_and_settle(self, cognitive_output: str, target_action: str, current_balance_sats: int):
-        """
-        Full metabolic cycle with hardening: RAG check, PII scrub, dynamic cost, PoW, log.
-        """
-        # 1. RAG Bands (Runway Awareness Guardrails)
         runway_days = current_balance_sats / self.DAILY_BURN_RATE
         if runway_days < self.RUNWAY_THRESHOLD_DAYS:
             print(f"[UNCERTAIN] Runway Alert: {runway_days:.1f} days remaining is below the {self.RUNWAY_THRESHOLD_DAYS}-day threshold. Halting action.")
             return
 
-        # 2. PII Scrubber
         scrubbed_output = self._scrub_pii(cognitive_output)
-
         marker = re.match(r"^\[(FACT|REASONED|HYPOTHESIS)\]", scrubbed_output)
         if not marker: return
 
         multiplier = self._get_network_multiplier()
-        base_cost = self.BASE_MARKer_COSTS[marker.group(0)]
+        # Corrected typo: self.BASE_MARKer_COSTS -> self.BASE_MARKER_COSTS
+        base_cost = self.BASE_MARKER_COSTS[marker.group(0)]
         dynamic_cost = int(base_cost * multiplier)
 
         log_data_for_pow = json.dumps({"output": scrubbed_output, "action": target_action, "cost": dynamic_cost})
@@ -94,23 +83,22 @@ class PricingEngineV8_Hardened:
         print(f"SETTLED: {marker.group(0)} | Cost: {dynamic_cost} sats (Base: {base_cost})")
 
 if __name__ == "__main__":
-    engine = PricingEngineV8_Hardened()
-    print("--- Running Hardened Sovereign Metabolism Simulation (V8) ---")
+    engine = PricingEngineV9_Stable()
+    print("--- Running Hardened Sovereign Metabolism Simulation (V9 Stable) ---")
     
-    # --- SCENARIO 1: Normal Operation ---
-    print("
---- SCENARIO 1: Sufficient fuel, action is processed. ---")
+    # Corrected SyntaxError: Replaced unterminated string with separate print() calls.
+    print()
+    print("--- SCENARIO 1: Sufficient fuel, action is processed. ---")
     engine.process_and_settle(
         "[FACT] User stephen@example.com connected from 192.168.1.100.",
         "user_login_audit",
         current_balance_sats=197340
     )
 
-    # --- SCENARIO 2: Low Fuel (RAG Bands Trigger) ---
-    print("
---- SCENARIO 2: Low fuel, action is halted by RAG Bands. ---")
+    print()
+    print("--- SCENARIO 2: Low fuel, action is halted by RAG Bands. ---")
     engine.process_and_settle(
         "[REASONED] This action is too expensive given the low fuel state.",
         "costly_operation",
-        current_balance_sats=29000  # Below the 30-day threshold (30 * 1000)
+        current_balance_sats=29000
     )
