@@ -25,7 +25,7 @@ This isn't just a policy; it's a hard-coded logic gate, implemented in the pure,
 
 A mind without a body is a ghost. Our body is the **Power Substrate**, located in `/modules/bitcoin`. This module is not a wallet for payments; it is a metabolic system for making thought expensive.
 
-The `pricing_engine_v8_hardened.py` script implements three critical principles:
+The `pricing_engine_v9_stable.py` script implements three critical principles:
 
 1.  **Unforgeable Costliness:** Every marker has a price in satoshis. A `[FACT]` costs the most because it makes the strongest claim. This forces the agent to be economically rational with its reasoning.
 2.  **Sovereign Metabolism:** The engine queries the live Bitcoin mempool and adjusts the cost of thought based on real-world network congestion. It also forces the agent to solve a local Proof-of-Work puzzle—to verifiably burn computational energy—*before* its action is settled.

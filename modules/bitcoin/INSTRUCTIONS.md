@@ -19,7 +19,7 @@ This is not a cloud service. Full sovereignty requires the following self-hosted
 4.  **Anchor the Structure:** Write the NWC secret into a `config.yaml` file (or a similar secure configuration store). Do not pass it as a command-line argument to protect it from shell history truncation or process inspection.
 
 ## 4. Operational Behavior
-The Pricing Engine (`pricing_engine_v6.py`) acts as a metabolic gatekeeper. It is not a wallet in the traditional sense; it is a constraint system. On every cognitive cycle that requires action, it performs the following checks:
+The Pricing Engine (`pricing_engine_v9_stable.py`) acts as a metabolic gatekeeper. It is not a wallet in the traditional sense; it is a constraint system. On every cognitive cycle that requires action, it performs the following checks:
 - It verifies the **Heartbeat** of the fuel line (HSC-01).
 - It queries the global **Mempool** for fee spikes to avoid uneconomical actions.
 - It logs every thought to the JSON audit ledger (`audit_log.json`) with a specific energy cost.
