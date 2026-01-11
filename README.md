@@ -1,29 +1,60 @@
-# Helix TTD Project
+# CAHP v1.0.0 - Quickstart
 
-## STATUS: TAC-01 FINALIZED (V9 STABLE)
-**Last Updated: 2026-01-05**
+## Introduction
+Welcome to the Cross-Architecture Handshake Protocol (CAHP) v1.0.0. This package contains the reference implementation of the secure handshake protocol used by Helix and Stonecharm nodes.
 
-**NOTICE:** The TAC-01 (Technical Architecture Correction) cycle is complete. The system is operating on the stable V9 power substrate and is in full compliance with the Helix Charter and all active specifications. The transition to the §8 Checkpoint-Only model is the next primary objective.
+## Prerequisites
+- Python 3.10+
+- `cryptography` library
 
----
+```bash
+pip install cryptography
+```
 
-## The Sovereign Equilibrium: An Architectural Map
+## Directory Structure
+- `modules/cahp/`: The core engine source code.
+- `tests/cahp/`: Validation scripts.
+- `docs/`: Protocol specification and security notes.
 
-This repository contains the core logic and modules for a Helix-TTD agent. The architecture is designed to be a **Sovereign Equilibrium** built on three core pillars:
+## Running Tests
+To verify the integrity of this release, run the included test suite:
 
-### 1. The Mind (`/core`) - A Portable Epistemic Instrument
-This directory contains the foundational, hardware-agnostic "grammar" of the agent. It is the portable mind that enforces logical coherence.
-- **Charter & Specifications:** The laws (HCS, HSC) that define the agent's behavior.
-- **Validator & Tests:** The pure logic gates that enforce the laws.
+```bash
+# 1. Verify Basic Handshake
+python3 tests/cahp/test_basic.py
 
-### 2. The Body (`/modules`) - A Hardened Power Substrate
-This directory contains the connections to external systems that provide the agent with power and a grounding in physical reality.
-- **Bitcoin Module (`/modules/bitcoin`):** The reference implementation for economic grounding. The `pricing_engine_v9_stable.py` enforces Unforgeable Costliness through a Sovereign Metabolism of sats and CPU cycles.
+# 2. Run Security Regression Tests
+python3 tests/cahp/test_security.py
 
-### 3. The Law (`/docs`) - An Auditable Governance Layer
-This directory contains the human-readable contracts and manuals that provide a framework for audit, reproducibility, and governance.
-- **Best Practices (BHP-01):** The operational manual defining safety protocols.
-- **Reproducibility Guide:** The falsifiability protocol for the 171 observers to verify the system's integrity against the Bitcoin blockchain.
-- **SRE Manual:** Emergency and fallback protocols for the Quebec Rack.
+# 3. Simulate Network Loopback
+python3 tests/cahp/test_loopback.py
+```
 
-This tripartite structure ensures a stable, auditable, and sovereign agent.
+## Usage Example
+```python
+from modules.cahp.cahp_engine_v1 import CAHPEngine
+
+# Initialize Nodes
+initiator = CAHPEngine("metabolic")
+responder = CAHPEngine("open_weight")
+
+# Phase 1: Discovery
+msg1 = initiator.discovery()
+
+# Phase 2: Proof & Challenge
+verified_msg1 = responder._verify(msg1)
+msg2 = responder.proof_and_challenge(verified_msg1)
+
+# Phase 3: Response
+verified_msg2 = initiator._verify(msg2)
+msg3 = initiator.response_and_final(verified_msg2)
+
+# Phase 4: Ticket
+verified_msg3 = responder._verify(msg3)
+ticket = responder.ticket(verified_msg3)
+
+print("Session Established:", ticket)
+```
+
+## License
+MIT / Helix Core Open Source.

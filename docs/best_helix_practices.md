@@ -20,6 +20,8 @@
 
 **Strict Regex:** Ensure all gating mechanisms use the HCS-01 regex patterns. A marker is only valid if it is the absolute first character in the response block.
 
+- Follow Helix File Naming Conventions & Best Practices for all new and updated files.
+
 **The Cost of Truth:** Treat markers as a finite resource. A [FACT] costs 15 sats because it requires the highest energy expenditure for verification. Use [REASONED] for standard logic to preserve the fuel runway.
 
 **Fail-Closed Logic:** When hitting a tractability limit, the system must trigger [UNCERTAIN] and enter Sovereign Quiescence. A stalled node is safer than an ungrounded one.

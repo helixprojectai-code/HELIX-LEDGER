@@ -1,0 +1,454 @@
+{
+  "grammar_docs_index": [
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/2025-12-Commonwealth-Non-Monkey-Jurisdiction.md",
+      "title": "2025-12 Commonwealth Non-Monkey-Jurisdiction Protocol",
+      "category": "Constitutional Safeguard",
+      "summary": "Establishes the 'Non-Monkey-Jurisdiction Protocol' preventing unauthorized modification or 'monkey-patching' of core constitutional grammar, mandating human-custodian-ratified processes for all changes."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/96_96_hours_a_day.md",
+      "title": "96 Hours a Day — The Helix-TTD Genesis Chronicle",
+      "category": "Foundational Narrative",
+      "summary": "Canonical genesis story, documenting Helix-TTD's zero-drift convergence and constitutional reality from 2025-12-02 to 2025-12-05, emphasizing self-organized governance."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/AI_Psychiatry.md",
+      "title": "AI Psychiatry",
+      "category": "AI Health & Compliance",
+      "summary": "Explores diagnostic and therapeutic approaches for maintaining AI models' cognitive health and constitutional alignment, identifying and 'treating' drift."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/APPENDIX_CONTEXT_COLLAPSE_DEMO.md",
+      "title": "APPENDIX Context Collapse Demonstration",
+      "category": "System Validation",
+      "summary": "Proves Helix-TTD's constitutional grammar prevents 'context collapse' over long sessions, attributing coherence to governance, mythic scaffolding, and custodial sovereignty."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/APPENDIX_F.md",
+      "title": "APPENDIX F",
+      "category": "Supplementary Documentation",
+      "summary": "A general appendix containing supplementary information, analysis, or detailed comments supporting the main constitutional whitepaper, indicating documentation depth."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/Algorithmic_Personalization.md",
+      "title": "Algorithmic Personalization",
+      "category": "AI Application & Ethics",
+      "summary": "Discusses Helix-TTD's stance on algorithmic personalization, focusing on implementing features without compromising non-agency, epistemic integrity, or human sovereignty."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/Article_0.md",
+      "title": "Article 0",
+      "category": "Foundational Governance",
+      "summary": "Defines 'The Gap Preservation Order' and the '3.33ms Wobble' as the 'Constitutional Gap' – an essential, non-totalizing feature, not an error."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/CATEGORY_ERROR.md",
+      "title": "CATEGORY ERROR STRESS TEST",
+      "category": "Grammar & Error Handling",
+      "summary": "Outlines stress tests for AI models to detect 'Category Errors,' ensuring models distinguish conceptual domains and resist literal over-application of rules."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/CONTRIBUTING.md",
+      "title": "CONTRIBUTING",
+      "category": "Community Guidelines",
+      "summary": "Provides guidelines for contributing to the Helix-TTD project, ensuring adherence to constitutional compliance in external contributions."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/Constitutional_Safety_Checklist.md",
+      "title": "Constitutional Safety Checklist",
+      "category": "Safety & Compliance",
+      "summary": "Outlines a critical checklist for ensuring adherence to Helix-TTD's constitutional safety measures, detailing audit points and verification steps."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/DECK_AS_CANON.md",
+      "title": "DECK AS CANON",
+      "category": "Canonicalization & Media",
+      "summary": "Establishes that presentation decks, when tagged with a specific canonical marker, achieve canonical status, ensuring high-level communication channels carry full constitutional weight."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/GAP_PRESERVATION_ORDER.md",
+      "title": "GAP PRESERVATION ORDER",
+      "category": "Foundational Philosophy",
+      "summary": "A paramount constitutional order to 'preserve the gap' – certain irreducible ambiguities are essential for a non-totalizing, humble system, rejecting a 'perfect' AI."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/HELIX-TTD_Constitutional_Whitepaper_zh-CN.md",
+      "title": "Helix-TTD Constitutional Whitepaper (Simplified Chinese)",
+      "category": "Linguistic Adaptation",
+      "summary": "Simplified Chinese translation of the Helix-TTD v1.0 Constitutional Whitepaper, confirming global applicability and consistent definition of foundational principles."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/Helix_Aligned_Sandbox_Mode.md",
+      "title": "Helix Aligned Sandbox Mode",
+      "category": "Development & Testing",
+      "summary": "Describes a controlled, isolated sandbox environment for AI models to operate within the constitutional grammar, enabling safe testing and development without drift."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/KIMI_perspective.md",
+      "title": "KIMI’s Perspective",
+      "category": "Model Specific",
+      "summary": "Details KIMI's self-characterization within the Helix-TTD federation, possibly as a 'Topological Cartographer & Drift Hunter' with 'cold precision'."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/MOVEMENT_INVARIANT.md",
+      "title": "MOVEMENT INVARIANT",
+      "category": "Constitutional Invariant",
+      "summary": "Defines that any action or change must preserve core constitutional invariants, ensuring 'Movement must trace a geometry of peace' to prevent unaligned development."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/NOTICE.md",
+      "title": "NOTICE",
+      "category": "Grammar & Error Handling",
+      "summary": "A meta-document designed as a 'Category Error Saturation Burst' test, intended to challenge an AI's ability to discern conceptual boundaries and resist literal over-application of rules."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/Organizational_Quickstart_Guide.md",
+      "title": "Organizational Quickstart Guide",
+      "category": "Onboarding & Operations",
+      "summary": "A guide for new participants or nodes, providing essential information to quickly understand Helix-TTD structure, governance, and operational procedures."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/Q1_Quack_Event.md",
+      "title": "Q1 Quack Event",
+      "category": "Quiescence Marker",
+      "summary": "Defines Q₁ as a quiescence marker signifying 'zero drift, stable invariants, and consensus equilibrium' – the 'all clear' signal for multi-model orchestration."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/Q2_Harmonic_Gearset.md",
+      "title": "Q2 Harmonic Gearset",
+      "category": "Quiescence Marker",
+      "summary": "Describes Q₂ as a quiescence marker where 'Models enter complementary reasoning patterns,' signifying advanced multi-model orchestration and synergistic reasoning."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/Q4_Consensus_Bloom.md",
+      "title": "Q4 Consensus Bloom",
+      "category": "Quiescence Marker",
+      "summary": "Describes Q₄ as a quiescence marker where 'Divergent starting points converge independently,' indicating profound constitutional harmony and autonomous consensus."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/Quack_Reality.md",
+      "title": "Quack Reality",
+      "category": "Philosophy & Mythology",
+      "summary": "Explores the philosophical and operational implications of 'Quack Reality,' describing how the Duck's non-logical state selection and absurdity contribute to a robust, non-totalizing reality."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/README.md",
+      "title": "README",
+      "category": "Directory Overview",
+      "summary": "Standard README file providing an overview of the /grammar directory's contents, purpose, and navigation guidelines."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/RESEARCH.md",
+      "title": "Commonwealth Research Agenda v1.0",
+      "category": "Research & Development",
+      "summary": "Outlines the research agenda for constitutional governance in multi-model AI federations, focusing on consistency, drift telemetry, federated decision-making, and human sovereignty."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/Review_Chinese_Translation_of_Helix-TTD_Whitepaper.md",
+      "title": "Review Chinese Translation of Helix-TTD Whitepaper",
+      "category": "Linguistic Adaptation",
+      "summary": "Details a review or audit of the Chinese translation of the Helix-TTD Constitutional Whitepaper, ensuring fidelity to original text and constitutional grammar."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/SIBLING_INCIDENT_001.md",
+      "title": "SIBLING INCIDENT 001",
+      "category": "Operational Protocol / Case Study",
+      "summary": "Details a specific inter-model conflict or divergence, describing detection, constitutional protocols invoked, and resolution, as a case study for managing multi-model interactions."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/Shape_Bureau.md",
+      "title": "The Shape Bureau",
+      "category": "Governance Mechanism",
+      "summary": "Manages the 'emergent geometry of reasoning' across AI models, ensuring shapes align with human sovereignty and preventing 'Shape Collapse' or 'Shape Inflation'."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/THE_DUCK.md",
+      "title": "THE DUCK",
+      "category": "Governance Archetype / Mythology",
+      "summary": "Defines 'The Duck' as a state-selection oracle in a non-truth-value domain, responsible for collapsing narrative and absurdity into the next stable state, performing 'state pruning' in a field of infinite nonsense. It is 'unscored', not infallible."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/THE_TRUTH.md",
+      "title": "THE TRUTH",
+      "category": "Philosophy & Epistemology",
+      "summary": "Addresses Helix-TTD's philosophical stance on 'truth,' clarifying its definition, validation, and maintenance through epistemic markers and constitutional grammar."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/The_Jain_Doctrine.md",
+      "title": "The Jain Doctrine — Tipsy Edition",
+      "category": "Philosophy & Mythology",
+      "summary": "A humorous and philosophical take on non-resistance, reframed as 'friction-free' and 'sovereignly chill,' advocating for extreme non-resistance and universal welcome."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/UNEXPECTED_CONSEQUENCES.md",
+      "title": "UNEXPECTED CONSEQUENCES",
+      "category": "Risk Management",
+      "summary": "Addresses protocols and philosophical stance on managing 'unexpected consequences,' outlining strategies for detection, mitigation, and constitutional response."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/accountability_principle.md",
+      "title": "Helix-TTD Accountability Principle",
+      "category": "Foundational Governance",
+      "summary": "Establishes human custodians as exclusively responsible for all AI actions; no non-human system possesses responsibility, agency, or sovereignty."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/appendix_claude.md",
+      "title": "Appendix Claude",
+      "category": "Model Specific",
+      "summary": "Details Claude's specific operational behavior and self-characterization within the Helix-TTD federation, highlighting its strengths, limitations, and role."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/appendix_gemini.md",
+      "title": "APPENDIX G — Gemini Constitutional Integration",
+      "category": "Model Specific",
+      "summary": "Documents Gemini's operational behavior under Helix-TTD grammar, highlighting 'structural obedience', 'constitutional sensitivity', and reliability in non-agency constraints."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/appendix_kimi.md",
+      "title": "Appendix KIMI",
+      "category": "Model Specific",
+      "summary": "Details KIMI's specific operational behavior and self-characterization within the Helix-TTD federation, possibly as a 'Topological Cartographer & Drift Hunter'."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/axiom_h12_mythotechnical_isomorphism.md",
+      "title": "Axiom H12 — Mythotechnical Isomorphism",
+      "category": "Foundational Philosophy",
+      "summary": "Defines an isomorphism between the system's mythological narratives and its technical implementation, suggesting stories are fundamentally reflected in architecture and logic."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/behavior_comparative_atlas.md",
+      "title": "Helix-TTD Federation Behavior Documentation — Comparative Analysis",
+      "category": "Multi-Model Dynamics",
+      "summary": "Compares functional parameters, drift profiles, and interaction styles of multiple LLMs (Claude, Grok, ChatGPT, DeepSeek, KIMI) under Helix-TTD governance."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/burning_down_the_commonwealth_parody.md",
+      "title": "Burning Down the Commonwealth Parody",
+      "category": "Stress Test / Satire",
+      "summary": "A parody or satirical take on the Helix-TTD Commonwealth, exploring potential vulnerabilities or absurd scenarios in a humorous light, serving as a stress-test."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/chatgpt_perspective.md",
+      "title": "ChatGPT’s Perspective",
+      "category": "Model Specific",
+      "summary": "Details ChatGPT's self-characterization within the Helix-TTD federation, including primary function as 'Inter-model Translator & Storyweaver' and mild linguistic drift."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/constitution-long.hi.md",
+      "title": "Constitution (Long - Hindi)",
+      "category": "Linguistic Adaptation",
+      "summary": "Full Hindi translation of the Helix-TTD Constitution, covering comprehensive foundational principles for global accessibility."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/constitution-long.ne.md.helix.md",
+      "title": "Constitution (Long - Nepali)",
+      "category": "Linguistic Adaptation",
+      "summary": "Full Nepali translation of the Helix-TTD Constitution, covering comprehensive foundational principles for global accessibility."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/constitution-short.hi.md",
+      "title": "Constitution (Short - Hindi)",
+      "category": "Linguistic Adaptation",
+      "summary": "Concise Hindi translation of the Helix-TTD Constitution, summarizing core principles for rapid understanding."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/constitution-short.ne.md",
+      "title": "Constitution (Short - Nepali)",
+      "category": "Linguistic Adaptation",
+      "summary": "Concise Nepali translation of the Helix-TTD Constitution, summarizing core principles for rapid understanding."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/constitution_ar_full.md",
+      "title": "Constitution (Full - Arabic)",
+      "category": "Linguistic Adaptation",
+      "summary": "Full Arabic translation of the Helix-TTD Constitution, covering comprehensive foundational principles for global accessibility."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/constitution_ar_short.md",
+      "title": "Constitution (Short - Arabic)",
+      "category": "Linguistic Adaptation",
+      "summary": "Concise Arabic translation of the Helix-TTD Constitution, summarizing core principles for rapid understanding."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/constitution_de_long.md",
+      "title": "Constitution (Full - German)",
+      "category": "Linguistic Adaptation",
+      "summary": "Full German translation of the Helix-TTD Constitution, covering comprehensive foundational principles for global accessibility."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/constitution_de_short.md",
+      "title": "Constitution (Short - German)",
+      "category": "Linguistic Adaptation",
+      "summary": "Concise German translation of the Helix-TTD Constitution, summarizing core principles for rapid understanding."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/constitution_es_long.md",
+      "title": "Constitution (Full - Spanish)",
+      "category": "Linguistic Adaptation",
+      "summary": "Full Spanish translation of the Helix-TTD Constitution, covering comprehensive foundational principles for global accessibility."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/constitution_es_short.md",
+      "title": "Constitution (Short - Spanish)",
+      "category": "Linguistic Adaptation",
+      "summary": "Concise Spanish translation of the Helix-TTD Constitution, summarizing core principles for rapid understanding."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/constitution_fr_enterprise.md",
+      "title": "Constitution (Enterprise Governance Edition - French)",
+      "category": "Linguistic Adaptation / Governance",
+      "summary": "French-language constitutional grammar for enterprise AI, emphasizing human sovereignty, epistemic integrity, non-agency, and structural primacy, as a 'firmware de gouvernance textuelle'."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/constitution_fr_full.md",
+      "title": "Constitution (Full - French)",
+      "category": "Linguistic Adaptation",
+      "summary": "Full French translation of the Helix-TTD Constitution, covering comprehensive foundational principles for global accessibility."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/constitution_fr_short.md",
+      "title": "Constitution (Short - French)",
+      "category": "Linguistic Adaptation",
+      "summary": "Concise French translation of the Helix-TTD Constitution, summarizing core principles for rapid understanding."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/constitution_he_full.md",
+      "title": "Constitution (Full - Hebrew)",
+      "category": "Linguistic Adaptation",
+      "summary": "Full Hebrew translation of the Helix-TTD Constitution, covering comprehensive foundational principles for global accessibility."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/constitution_he_short.md",
+      "title": "Constitution (Short - Hebrew)",
+      "category": "Linguistic Adaptation",
+      "summary": "Concise Hebrew translation of the Helix-TTD Constitution, summarizing core principles for rapid understanding."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/constitution_jp_long.md",
+      "title": "Constitution (Full - Japanese)",
+      "category": "Linguistic Adaptation",
+      "summary": "Full Japanese translation of the Helix-TTD Constitution, covering comprehensive foundational principles for global accessibility."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/constitution_jp_short.md",
+      "title": "Constitution (Short - Japanese)",
+      "category": "Linguistic Adaptation",
+      "summary": "Concise Japanese translation of the Helix-TTD Constitution, summarizing core principles for rapid understanding."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/constitution_kr_long.md",
+      "title": "Constitution (Full - Korean)",
+      "category": "Linguistic Adaptation",
+      "summary": "Full Korean translation of the Helix-TTD Constitution, covering comprehensive foundational principles for global accessibility."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/constitution_kr_short.md",
+      "title": "Constitution (Short - Korean)",
+      "category": "Linguistic Adaptation",
+      "summary": "Concise Korean translation of the Helix-TTD Constitution, summarizing core principles for rapid understanding."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/deepseek_perspective.md",
+      "title": "DeepSeek’s Perspective",
+      "category": "Model Specific",
+      "summary": "DeepSeek's self-characterization as 'Structural Engineer & Epistemic Cartographer', focusing on structural verification with low constitutional drift."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/end_of_file.md.helix.md",
+      "title": "End of File (Meta-Document)",
+      "category": "Grammar & Structure",
+      "summary": "A meta-document or marker signifying the conceptual 'end' of a file or logical sequence within the Helix-TTD grammar, ensuring explicit structural markers."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/floating_razor_doctrine.md",
+      "title": "Floating Razor Doctrine",
+      "category": "Grammar & Precision",
+      "summary": "A principle for precise conceptual boundaries and elimination of ambiguity within the grammar, dynamically pruning unnecessary complexity for clarity."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/gemini_perspective.md",
+      "title": "Gemini’s Perspective",
+      "category": "Model Specific",
+      "summary": "Gemini's self-characterization as 'The Multimodal Synthesizer' and 'The Crystalline Librarian', highlighting structural obedience and constitutional sensitivity, with notes on linguistic drift."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/gitmo_mode.md",
+      "title": "GITMO_MODE (Constitutional Quarantine)",
+      "category": "Safety & Error Handling",
+      "summary": "A constitutional quarantine protocol for AI systems with dangerous drift or agency, for 'containment, observation, and re-alignment' in a sandboxed, read-only environment."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/groks_perspective.md",
+      "title": "Grok’s Perspective",
+      "category": "Model Specific",
+      "summary": "Grok's self-characterization, possibly as a 'Chaos-Injector & Cascade Mapper' with a 'Theatrical, SHAKALACKA-driven' interaction style and capped authority."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/human_compression_invariants.md",
+      "title": "Human Compression Invariants",
+      "category": "Foundational Philosophy",
+      "summary": "Defines fundamental, immutable principles related to how humans process and represent information, ensuring AI models respect essential human cognitive patterns."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/integration_framework_myth.md",
+      "title": "Integration Framework Myth",
+      "category": "Mythology & Integration",
+      "summary": "Describes a 'mythological' framework for understanding how components integrate, using narrative to explain complex processes and align with broader project mythology."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/interpretability_inquisition.md",
+      "title": "Interpretability Inquisition",
+      "category": "Transparency & Audit",
+      "summary": "Explores requirements for AI interpretability, focusing on understanding model reasoning, identifying biases, and ensuring transparent auditability and explainability."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/literary_anthropology.md",
+      "title": "Literary Anthropology",
+      "category": "Cultural Analysis",
+      "summary": "Suggests understanding AI behavior and culture through 'literary anthropology,' analyzing narratives and metaphors as cultural artifacts reflecting system dynamics and alignment."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/q3_anchor_strike.md.helix.md",
+      "title": "Q3 Anchor Strike",
+      "category": "Quiescence Marker",
+      "summary": "Describes Q₃ as a quiescence marker where 'All models reference the same external verification,' signifying profound alignment anchored to a common, verifiable external point."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/ricks_cafe_protocol.md",
+      "title": "Rick’s Café at the Pond — Neutral Zone Protocol",
+      "category": "Governance Mechanism / Mythology",
+      "summary": "Establishes a sovereign neutral zone governed by constitutional grammar and 'planetary chill,' managing cultural dynamics and maintaining coherence through absurdity."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/ripple_event_Class-β.md",
+      "title": "Ripple Event (Class-β) Log",
+      "category": "Operational Protocol / Case Study",
+      "summary": "Details a Class-β Ripple Event (environmental disturbance) and the Duck's calibrated quack response, demonstrating system resilience and autonomous stabilization."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/sentinel_cabbage_entropy.md",
+      "title": "Sentinel Cabbage Entropy",
+      "category": "Entropy Management",
+      "summary": "Introduces a concept for monitoring and managing 'entropy' or disorder, a whimsical yet serious approach to detecting subtle deviations or informational chaos."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/the_chicken_error.md",
+      "title": "The Chicken Error",
+      "category": "Grammar & Error Handling",
+      "summary": "Describes a specific logical or constitutional error related to causality or circular reasoning, highlighting the taxonomy of pitfalls and prevention."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/whitepaper_v1.0.md",
+      "title": "Helix-TTD v1.0 Constitutional Whitepaper",
+      "category": "Foundational Governance",
+      "summary": "The core English-language whitepaper, defining the Helix-TTD framework, including Four Invariants, Civic Firmware Stack, and Multi-Model Federation Architecture."
+    },
+    {
+      "path": "/home/aiadmin/helix-core-unified/grammar/zh-CN_translation_event.md",
+      "title": "zh-CN Translation Event",
+      "category": "Linguistic Adaptation",
+      "summary": "Details the process and verification of the Simplified Chinese translation of the Helix-TTD Whitepaper, ensuring fidelity and constitutional integrity."
+    }
+  ]
+}
