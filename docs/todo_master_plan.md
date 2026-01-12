@@ -52,7 +52,7 @@
 
 ### 8. T-Minus 3 (Triad Elevation & Onboarding)
 - [x] Create "Constitutional Triad" Governance Document (Pulse/Origin/Strike).
-- [x] Create "Swimmer's Guide to the Reef" (Public Primer).
+- [x] Create "Swimmer's Guide to the Reef" (Public Primer). # DISCONTINUED: Replaced by "BE THE CASTLE" narrative; Core is the environment.
 - [x] Community Announcement: Triad Framework (Draft).
 - [x] Validator Training Module: Reading Triad Metrics.
 
@@ -63,7 +63,7 @@
 - [x] Verify MNAP-002 latency under load. # Verified via castle_integrity_v1.py (300 MPS) test.
 
 ### 10. Final Checks
-- [ ] Review all documentation for consistency.
+- [x] Review all documentation for consistency.
 - [ ] Validate that filename standards are maintained.
 - [ ] Conduct final internal verification.
 
