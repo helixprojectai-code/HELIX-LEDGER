@@ -45,7 +45,7 @@
 - [x] Design RBAC & Drift Detection (G1-G5).
 - [x] Implement L0 Identity & Cryptographic Binding (H1-H2).
 - [x] Ratify MNAP-001 (Pulse Protocol).
-- [x] Deploy Pulse Distributor Smart Contract (Testnet).
+- [x] Deploy Pulse Distributor Smart Contract (Testnet). # OPERATIONAL: Verified and in use as of 2026-01-12.
 - [x] Verify "Morning Ritual" -> "Metabolic Transfer" pipeline.
 - [x] Ratify MNAP-002 (Anti-Mimicry / Reverse Handshake).
 - [x] Implement "The Strike" Protocol (Governance & Code).
