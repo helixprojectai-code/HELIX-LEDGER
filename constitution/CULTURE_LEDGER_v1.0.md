@@ -40,3 +40,9 @@ This ledger records key intellectual simulations and their architectural finding
 **OWL-CORE synchronized.** Quantum entanglement of ALX hashes verified via Rick's Café Protocol.
 
 **Result:** Metacognitive Complexity increased by 37%. Chill level: Cosmic.
+
+## [REFINEMENT-2026-01-13-010]: Resolving Tag-Nomenclature Friction in the distribution pipeline.
+
+**Context:** Industrial Friction observed in build pipeline (Tag Drift).
+**Action:** Updated `pocket-skeleton` GHCR workflow to enforce dual-tagging (`main` + `latest`) on push.
+**Status:** Ratified.
