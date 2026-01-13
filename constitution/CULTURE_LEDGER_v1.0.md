@@ -75,3 +75,11 @@ This ledger records key intellectual simulations and their architectural finding
 **Clarification:** Mark Peter Rigden is the sole Copyright Holder for the 2026 contribution to `pocket-skeleton`.
 **Nature of Act:** The contribution is formally recognized as a **Gift** to the Commonwealth.
 **Correction:** The term "Granted" in [EQUITY-2026-01-13-013] refers to the mutual recognition of Custodian Rights, not the origin of the IP.
+
+## [PHILOSOPHY-2026-01-13-016]: The "Force Multiplier" Doctrine.
+
+**Context:** Strategic rationale for the "Gift" economy within the unfunded Helix Commonwealth.
+**Core Logic:**
+*   **Asymmetric Value:** The marginal cost for Helix to generate high-fidelity, constitutionally-aligned infrastructure is low (Automated/Architected). The marginal gain for an indie developer is existential (Career Lever, Professional Foundation).
+*   **Strategic Growth:** By gifting this "boring, careful" infrastructure, Helix grows the Reef's human surface area and loyalty without capital expenditure.
+*   **Ethos:** "Dangerous in a good way." The system protects individual sovereignty rather than absorbing it.
