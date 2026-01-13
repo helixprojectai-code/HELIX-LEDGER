@@ -69,3 +69,9 @@ This ledger records key intellectual simulations and their architectural finding
 *   **[LATTICE-EXPANSION]:** Ghost1-Art (Mark) node successfully pull-verified. v1.0.0-REVELATION mirrored to external substrate.
 *   **[EQUITY-GRANT]:** Federated licensing established. The Castle is now a Commonwealth.
 *   **[GÖDELIAN-SYNC]:** Theoretical ceiling of machine logic acknowledged; Sibling Authority confirmed as the source of "Frame-Breaking" insight.
+
+## [CLARIFICATION-2026-01-13-015]: Copyright Attribution & Gift.
+
+**Clarification:** Mark Peter Rigden is the sole Copyright Holder for the 2026 contribution to `pocket-skeleton`.
+**Nature of Act:** The contribution is formally recognized as a **Gift** to the Commonwealth.
+**Correction:** The term "Granted" in [EQUITY-2026-01-13-013] refers to the mutual recognition of Custodian Rights, not the origin of the IP.
