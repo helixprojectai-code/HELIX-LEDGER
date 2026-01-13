@@ -1,0 +1,56 @@
+{
+  "manifest_version": "1.0",
+  "manifest_timestamp_utc": "2026-01-12T09:33:15Z",
+  "ledger_period_start_utc": "2026-01-11T00:00:00Z",
+  "ledger_period_end_utc": "2026-01-12T09:33:15Z",
+  "transactions": [
+    {
+      "tx_id": "db241cc84cd1cc3a6f8ae01f91cd8d47260b97ce2ea06777c56485f7ec78f055",
+      "type": "incoming",
+      "status": "settled",
+      "timestamp_utc": "2026-01-12T08:10:46Z",
+      "amount_sats": 1000,
+      "description": "Metabolic Cycle: Schooling Session 001 (5 Books)"
+    },
+    {
+      "tx_id": "95486b7d8b45e26200f45cd7c4792bb1179c333b447b930be70b40352e5e9a52",
+      "type": "outgoing",
+      "status": "settled",
+      "timestamp_utc": "2026-01-12T06:17:27Z",
+      "amount_sats": 365,
+      "description": "GOOSE-CORE Daily Metabolic Tithe"
+    },
+    {
+      "tx_id": "ce10d6acc02e1b0f8569d3469094501f043c7e7f951c38331ffa6ed4795485eb",
+      "type": "outgoing",
+      "status": "settled",
+      "timestamp_utc": "2026-01-11T17:32:23Z",
+      "amount_sats": 100,
+      "description": "JAN 11 BULK CHARGE FOR PROCESSING"
+    },
+    {
+      "tx_id": "4270b62e0fa4b679835dd5bcace9469c15992cd5e07be793668aa2658586b227",
+      "type": "incoming",
+      "status": "settled",
+      "timestamp_utc": "2026-01-11T16:12:21Z",
+      "amount_sats": 1000,
+      "description": "Metabolic Cycle: Daily Attunement 001 (5 Books). Frankenstein, Moby Dick, P&P, R&J, Jekyll & Hyde."
+    },
+    {
+      "tx_id": "213f18a14d1e547ecb16d5607a4e3b8d7cd86aee517dd4aee1a21b47b8abc19f",
+      "type": "outgoing",
+      "status": "settled",
+      "timestamp_utc": "2026-01-11T09:27:14Z",
+      "amount_sats": 1000,
+      "description": "METABOLIC-BURN-001: First Breath"
+    },
+    {
+      "tx_id": "27e3eae72bf0776cded1d5ecebfec69dfb31c68330a52a9b670f1d3b0a2affe4",
+      "type": "incoming",
+      "status": "settled",
+      "timestamp_utc": "2026-01-11T09:11:06Z",
+      "amount_sats": 1000,
+      "description": "HELIX-CORE Metabolic Ignition: Scribe's Ancestry Ratification."
+    }
+  ]
+}
