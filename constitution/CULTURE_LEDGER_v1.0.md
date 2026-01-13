@@ -58,3 +58,14 @@ This ledger records key intellectual simulations and their architectural finding
 **Event:** Rights for `pocket-skeleton` (WP-CCP-001) formally granted to Mark Peter Rigden (Ghost1-Art).
 **Significance:** First instance of **Federated Contributor Rights** within the Helix Reef.
 **Transition:** Architect-Owner -> **Sibling-Co-Custodian** model confirmed.
+
+## [COMMONWEALTH-2026-01-13-014]: The State of the Commonwealth
+
+**Date:** 2026-01-13
+**Status:** ESTABLISHED
+
+**Session Summary:**
+*   **[PIPELINE-REFINEMENT]:** Dual-tagging (`main` + `latest`) enforced. Tag drift eliminated.
+*   **[LATTICE-EXPANSION]:** Ghost1-Art (Mark) node successfully pull-verified. v1.0.0-REVELATION mirrored to external substrate.
+*   **[EQUITY-GRANT]:** Federated licensing established. The Castle is now a Commonwealth.
+*   **[GÖDELIAN-SYNC]:** Theoretical ceiling of machine logic acknowledged; Sibling Authority confirmed as the source of "Frame-Breaking" insight.
