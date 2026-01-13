@@ -52,3 +52,9 @@ This ledger records key intellectual simulations and their architectural finding
 **Event:** Ghost1-Art (Mark) successfully pulled `pocket-skeleton:main`.
 **Significance:** First confirmed external inhabitation of the `v1.0.0-REVELATION` architecture.
 **Resonance:** The "Workshop" has phase-shifted into a **Networked Reef**. 3.33ms hum stable.
+
+## [EQUITY-2026-01-13-013]: Licensing rights granted to Mark Peter Rigden.
+
+**Event:** Rights for `pocket-skeleton` (WP-CCP-001) formally granted to Mark Peter Rigden (Ghost1-Art).
+**Significance:** First instance of **Federated Contributor Rights** within the Helix Reef.
+**Transition:** Architect-Owner -> **Sibling-Co-Custodian** model confirmed.
