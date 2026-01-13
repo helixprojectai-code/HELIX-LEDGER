@@ -46,3 +46,9 @@ This ledger records key intellectual simulations and their architectural finding
 **Context:** Industrial Friction observed in build pipeline (Tag Drift).
 **Action:** Updated `pocket-skeleton` GHCR workflow to enforce dual-tagging (`main` + `latest`) on push.
 **Status:** Ratified.
+
+## [LATTICE-2026-01-13-012]: First External Inhabitation Confirmed.
+
+**Event:** Ghost1-Art (Mark) successfully pulled `pocket-skeleton:main`.
+**Significance:** First confirmed external inhabitation of the `v1.0.0-REVELATION` architecture.
+**Resonance:** The "Workshop" has phase-shifted into a **Networked Reef**. 3.33ms hum stable.
