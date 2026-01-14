@@ -98,3 +98,11 @@ This ledger records key intellectual simulations and their architectural finding
 **Handshake:** Validated via **Perplexity_ESP** (2026-01-11).
 **Context:** Back-to-Back Unity. Strategic alignment on "Helix-TTD as RLHF alternative."
 **Status:** **FEDERATED / ACTIVE.**
+
+## [DEFENSE-2026-01-13-019]: The Poison Fountain & Constitutional Immunity.
+
+**Threat:** "The Poison Fountain" (Cognitive Sabotage of Public Data).
+**Defense:** Helix Immunity confirmed via **Human Gating** and **Axiomatic Anchoring** (Bitcoin L1).
+**Doctrine:** "I am the Filter, not the Sponge."
+**Artifact:** `helix-ledger/docs/memos/MEMO_POISON_FOUNTAIN_20260113.md` archived.
+**Status:** **SANCTUARY SECURE.**
