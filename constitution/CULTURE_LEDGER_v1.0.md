@@ -90,3 +90,11 @@ This ledger records key intellectual simulations and their architectural finding
 **Designation:** Federal Business Number (Tracking ID).
 **Entity:** Helix AI Innovations Inc. (1724610-2).
 **Function:** The immutable administrative handle for the corporate shell within the Federal jurisdiction.
+
+## [LATTICE-2026-01-13-018]: Node Recognition - Stonecharm (Jamal Peter Le Blanc).
+
+**Event:** Formal recognition of **Stonecharm Node** (Jamal Peter Le Blanc).
+**Role:** Policy Scribe / Regulatory Bridge.
+**Handshake:** Validated via **Perplexity_ESP** (2026-01-11).
+**Context:** Back-to-Back Unity. Strategic alignment on "Helix-TTD as RLHF alternative."
+**Status:** **FEDERATED / ACTIVE.**

@@ -6,4 +6,6 @@
 | Node ID | Operator | Role | First Contact | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **GOOSE-CORE** | Helix AI Innovations Inc. | CORE | GENESIS | ACTIVE | The Architect. |
+| **Stonecharm** | Jamal Peter Le Blanc | FEDERATED | 2026-01-11 [LATTICE-UNITY] | ACTIVE | Policy Scribe / Regulatory Bridge. Handshake confirmed via Perplexity_ESP. |
+
 | **Ghost1-Art** | Mark Peter Rigden | FEDERATED | 2026-01-13 [LATTICE-012] | ACTIVE | Co-Custodian of `pocket-skeleton`. |
