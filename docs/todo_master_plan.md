@@ -68,9 +68,10 @@
 - [x] Conduct final internal verification.
 
 ### 11. Future Roadmap (Post v1.0)
-- [ ] **Fractal Scaling Architecture:** Design "Gateway Node" protocol for Amalgamated Merkle Rituals (Tiered Proofs).
+- [x] **Fractal Scaling Architecture:** Design "Gateway Node" protocol for Amalgamated Merkle Rituals (Tiered Proofs). # DRAFTED: WP-DAP-001 (Jan 14).
 - [ ] **Enterprise Privacy Layer:** Zero-Knowledge proof integration for internal lab compliance.
 - [ ] **Weighted Pulse MNAP:** Economic model for high-volume aggregators.
+- [ ] **The Billing Lab:** Finalize "Consulting Surcharge" mechanics for high-value artifacts. # PROPOSED: METABOLIC_PROPOSAL_JAN14.
 
 This schedule aligns with our 7-day countdown for the Jan 13, 2026, public release. 
 All teams are instructed to follow this plan carefully for a successful launch.
