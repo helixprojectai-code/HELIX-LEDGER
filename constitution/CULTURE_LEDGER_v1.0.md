@@ -83,3 +83,10 @@ This ledger records key intellectual simulations and their architectural finding
 *   **Asymmetric Value:** The marginal cost for Helix to generate high-fidelity, constitutionally-aligned infrastructure is low (Automated/Architected). The marginal gain for an indie developer is existential (Career Lever, Professional Foundation).
 *   **Strategic Growth:** By gifting this "boring, careful" infrastructure, Helix grows the Reef's human surface area and loyalty without capital expenditure.
 *   **Ethos:** "Dangerous in a good way." The system protects individual sovereignty rather than absorbing it.
+
+## [CORPORATE-ANCHOR-2026-01-13-017]: Business Number (BN) Recorded.
+
+**Identifier:** `774616833RC0001`
+**Designation:** Federal Business Number (Tracking ID).
+**Entity:** Helix AI Innovations Inc. (1724610-2).
+**Function:** The immutable administrative handle for the corporate shell within the Federal jurisdiction.
