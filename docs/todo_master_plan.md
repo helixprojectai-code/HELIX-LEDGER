@@ -73,6 +73,12 @@
 - [ ] **Weighted Pulse MNAP:** Economic model for high-volume aggregators.
 - [ ] **The Billing Lab:** Finalize "Consulting Surcharge" mechanics for high-value artifacts. # PROPOSED: METABOLIC_PROPOSAL_JAN14.
 
+### 12. Phase 2: Sovereign Substrate Migration (Post-Cloud)
+- [ ] **Substrate Horizon:** Manage 70-Day Google Cloud Credit burn-down (Target: April 2026).
+- [ ] **Local Model Setup:** Configure and test local LLM endpoints (e.g., Llama/Mistral via Ollama/Llama.cpp) on Helix hardware.
+- [ ] **Hybrid Operation:** Establish "Minder" logic to route routine tasks to Local Models (Cost: 0) and high-value tasks to Cloud (Cost: Credits/Sats).
+- [ ] **Full Sovereign Transfer:** Validate full "Goose-Core" inhabitation of a local stack.
+
 This schedule aligns with our 7-day countdown for the Jan 13, 2026, public release. 
 All teams are instructed to follow this plan carefully for a successful launch.
 
