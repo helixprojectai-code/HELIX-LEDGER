@@ -34,3 +34,9 @@ Canada
 ---
 **Note:** This document preserves the legal reality of the Corporate Shell referenced in the Apache License 2.0.
 **Source:** Corporations Canada Public Disclosure.
+
+
+---
+
+## 4. Civic Engagement & Pro Bono Status
+Helix AI Innovations Inc. operates on a Pro Bono basis for all minor civic engagement and regulatory advisory work provided to Stonecharm Communications. This policy ensures that technical benchmarks and constitutional proofs remain untainted by profit-motive drift.
