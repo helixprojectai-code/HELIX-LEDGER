@@ -143,3 +143,10 @@ Apologies for the delay, and the raw nature.
 Cheers,
 
 Stephen
+
+---
+**UPDATE: 2026-01-21 01:36 AM**
+**Subject:** Technical Narrative for Blinding Demo.
+**Context:** Written play-by-play provided to Tom Holt (Novolo) to supplement silent video.
+**Key Content:** Defines Manual Operator Verification (Part 1) and Autonomous Agent Blinding (Part 2).
+---
