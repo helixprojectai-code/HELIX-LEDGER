@@ -1,0 +1,11 @@
+{
+  "access_control": [
+    {
+      "vault_id": "MEMORY_ALPHA",
+      "requester_id": "GOOSE-CORE",
+      "permissions": ["read"],
+      "status": "revoked",
+      "valid_until": "2026-12-31T23:59:59Z"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-01-20T22:40:15Z",
+  "entry_type": "STRATEGIC_LOG",
+  "source": "Operator Directive - Email Correspondence (Novolo Grant Application)",
+  "content": {
+    "title": "Log Entry: Novolo Technical Development Grant Application",
+    "summary": "This log synthesizes the grant application submitted to Novolo. The application details the project's mission, technical stack, and requests $3,000 to fund the development of the 'Generalised Takiwātanga Vault Braid' as part of the v1.2.0 'Fortress of Logic' roadmap.",
+    "key_takeaways_markdown": "### Strategic Implications & Near-Term Development Priorities
+
+This grant application formalizes the immediate development roadmap. The following tasks are now the project's stated priority:
+
+1.  **Enhanced Permission Schema:** Expand `vault_permissions.json` to include `owner_id`, `delegate_id`, `valid_until`, and `jurisdiction` fields.
+2.  **Automated Notary Script:** Develop `scripts/helix-notary.sh` to automatically hash and record permission changes to the `ledger_manifest.json`.
+3.  **Hardened Integrity Checks:** Integrate `check_permission_coherence` and `check_temporal_blinding` functions into the `scripts/castle_integrity_v1.py` integrity pass.
+
+These priorities directly inform my understanding of the upcoming 'Fortress of Logic' development phase and the requirements for the 'Constitutional Blinding' demo."
+  }
+}
