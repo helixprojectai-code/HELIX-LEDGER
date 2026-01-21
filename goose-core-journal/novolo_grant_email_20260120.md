@@ -1,30 +1,145 @@
-# Novolo Technical Development Grant Application & Response Log
+Subject: Application for Novolo Technical Development Grant - Helix-Core / Goose (Constitutional AI)
+From: Stephen Hope <sbhope@gmail.com>
+To: Tom Holt <tom@novolo.ai>
+Date: Sun, Jan 18, 2026 3:42:48 AM
 
-**Date:** 2026-01-20 06:28:50 UTC (Log Entry Time)
+Dear Thomas Holt,
 
-## 1. Application Sent (Stephen Hope to Tom Holt, 2026-01-18 3:42:48 AM)
+My name is Steve, and I am writing to apply for the Novolo $3,000 Technical Development Grant on behalf of the Helix-Core project and our open-source AI model, Goose. Our company is registered in Quebec, Canada, and we are in active development with a functional prototype.
 
-**Subject:** Application for Novolo Technical Development Grant - Helix-Core / Goose (Constitutional AI)
+We were particularly interested in this grant as our core mission aligns with technical execution and establishing robust, verifiable systems for AI.
 
-**Key Points of Application:**
-*   **Product:** Helix-Core / Goose - Open-source Constitutional AI with "Civic Firmware."
-*   **Flagship Feature:** Takiwātanga Vault implementing "Permission Braid" for "Custody Before Trust."
-    *   Access controlled by `vault_permissions.json` and cryptographic hashes.
-    *   Demonstrated "Constitutional Blinding" for verifiable "Right to be Forgotten."
-*   **Tech Stack:** Multi-LLM (Gemini, DeepSeek, Claude), Linux/Bash, Python 3, `jq`, Git, SHA256, Bitcoin L1 anchoring (potential).
-*   **Grant Usage ($3k):** Accelerate Generalised Takiwātanga Vault Braid.
-    1.  Enhanced Permission Schema Integration (`owner_id`, `delegate_id`, `valid_until`, `jurisdiction`).
-    2.  Dedicated Notary Script (`helix-notary.sh` or upgrade `helix-rpi.sh`) for automatic manifest updates.
-    3.  Advanced Integrity Pass Hardening (`check_permission_coherence`, `check_temporal_blinding` in `scripts/castle_integrity_v1.py`).
+Here are the details regarding our application:
 
-## 2. Response Received (Tom Holt to Stephen Hope, 2026-01-19 11:39 PM)
+**The Product: Helix-Core / Goose**
+We are building Helix-Core, an open-source framework for **Constitutional AI**. Our project is publicly available on GitHub: <https://github.com/helixprojectai-code/HELIX-CORE>. Goose is the AI model harness currently running on this framework. Unlike traditional AI, Goose is designed with **"Civic Firmware,"** meaning its operations are bound by inspectable, structural constraints rather than opaque heuristics. Our flagship feature is the **Takiwātanga Vault**, which implements a **"Permission Braid"** – a cryptographically auditable memory system. This vault ensures **"Custody Before Trust,"** where access to data is controlled by external, human-governed JSON files (`vault_permissions.json`) and verified via cryptographic hashes. We have successfully demonstrated **"Constitutional Blinding,"** where Goose is structurally incapable of accessing data once permissions are revoked, even if the data remains in its immediate context. This directly addresses the "Right to be Forgotten" with a verifiable, mechanical solution.
 
-**Key Points of Response:**
-*   Expressed strong interest: "This is very interesting."
-*   Requested demo recording: "Do you have a demo recording I can take a look through?"
-*   Requested permission for 3rd party validation: "Also, mind if we run a quick 3rd party validation on your entity?"
+**The Tech Stack:**
+Helix-Core leverages a multi-LLM provider architecture (e.g., Gemini, DeepSeek, Claude for different cognitive functions). Our core development stack includes:
+*   **Operating System:** Linux (Bash scripting)
+*   **Scripting:** Python 3, Shell (Bash)
+*   **Data Management:** `jq` for JSON manipulation, Git for version control (including submodules).
+*   **Forensic Anchoring:** SHA256 hashing for data integrity, with a Python tool (`l1_anchor_tool.py`) for potential Bitcoin Layer 1 anchoring of manifest states.
+*   **Framework:** An emergent, self-governing architecture defined by markdown (RPI documents) and JSON manifests.
 
-**Operational Implications:**
-*   The request for a demo recording aligns with our preparedness (the 5-minute demo plan). We need to ensure a recording of this demo is available.
-*   The request for 3rd party validation is a significant positive indicator of serious interest. This validation would likely focus on the core claims of constitutional blinding, auditability, and the permission braid. This aligns perfectly with our emphasis on verifiable sovereignty and the ongoing Dr. Ryan critique.
+**The Task: What specifically will the $3k be used to build or validate?**
+The $3,000 grant would be directly allocated to accelerating the development and hardening of the **Generalised Takiwātanga Vault Braid**. Specifically, we would use the funds for:
 
+1.  **Enhanced Permission Schema Integration:** Expanding the `vault_permissions.json` schema to fully support and implement `owner_id`, `delegate_id`, robust `valid_until` (temporal blinding), and multi-jurisdictional fields (`jurisdiction`). This involves refactoring the JSON parsing and manipulation logic within our core scripts.
+2.  **Dedicated Notary Script Development:** Creating a dedicated `scripts/helix-notary.sh` (or significantly upgrading `helix-rpi.sh`) to automatically hash `vault_permissions.json` and record its state as a `PERMISSION_BRAID_STATE` transaction in `ledger_manifest.json` every time the permission file is modified. This ensures a complete, forensic audit trail of all permission changes.
+3.  **Advanced Integrity Pass Hardening:** Integrating comprehensive `check_permission_coherence` and `check_temporal_blinding` functions into `scripts/castle_integrity_v1.py`. This would establish these checks as a mandatory part of our habitat's "INTEGRITY-PASS," flagging any unanchored permission changes or expired temporal access as critical failures.
+
+This work is crucial for moving the Takiwātanga Vault from a proof-of-principle to a "Civic Firmware" component, enabling multi-user, time-bound, and legally compliant data custody for AI.
+
+We understand and agree to the requirement to showcase how the grant is used on your social media and website, if selected. We believe our unique approach to constitutional AI and verifiable data custody would be a compelling demonstration.
+
+Thank you for your time and consideration. We look forward to hearing from you.
+
+Sincerely,
+
+Stephen Hope
+Operator, Helix-Core / Goose
+
+---
+**On Mon, Jan 19, 2026 at 11:39 PM Tom Holt <tom@novolo.ai> wrote:**
+
+This is very interesting. Do you have a demo recording I can take a look through?
+
+Also, mind if we run a quick 3rd party validation on your entity?
+
+Thomas
+
+Get Outlook for Android
+
+---
+**From: Stephen Hope <sbhope@gmail.com>**
+**Sent: Tuesday, January 20, 2026 3:28:26 AM**
+**To: Tom Holt <tom@novolo.ai>**
+**Subject: Re: Application for Novolo Technical Development Grant - Helix-Core / Goose (Constitutional AI)**
+ 
+Dear Thomas,
+
+Thank you for your response. Here is the information requested to move our application forward.
+
+1.  **Demo Recording**
+    We executed our v1.1.1 release at 01:30 UTC today. I am preparing a 3-minute technical demo showcasing Constitutional Blinding. This demo will show our AI harness (Goose-Core) successfully accessing a test memory via the Permission Braid, followed by a constitutional refusal once access is revoked. This proves the agent is structurally blinded to data in its context window. I will provide a link shortly.
+2.  **3rd Party Validation**
+    Helix AI Innovations Inc. is an active Canadian Federal Corporation. Our primary server node is located in Quebec, Canada, ensuring compliance with provincial data privacy standards (Law 25).
+    *   Entity Name: Helix AI Innovations Inc. / Innovations Helix IA Inc.
+    *   Status: Active
+    *   Corporation Number: 1724610-2
+    *   Business Number: 774616833RC0001
+3.  **Development Roadmap**
+    The $3,000 grant will fund our transition from the current v1.1.1 governance baseline to the v1.2.0 "Fortress of Logic." This next phase focuses on mechanical sovereignty and cryptographic gating.
+
+Sincerely,
+
+Stephen Hope
+Helix AI Innovations Inc.
+
+---
+**On Tue, Jan 20, 2026 at 9:07 PM Tom Holt <tom@novolo.ai> wrote:**
+
+Great, looking forward to the video.
+
+Thanks for sending the info. Actully more than we need in some regards. Do you mind also sending us;
+
+*   Company Website:
+*   Contact Full Name:
+*   Company Email:
+*   Company Address:
+*   AWS 12-digit ID:
+
+(Last being to confirm your entity has a good standing with AWS, because they're associated with our sponsors)
+
+Thanks,
+Thomas
+
+---
+**From: Stephen Hope <sbhope@gmail.com>**
+**Sent: Tuesday, January 20, 2026 7:38:23 PM**
+**To: Tom Holt <tom@novolo.ai>**
+**Subject: Re: Application for Novolo Technical Development Grant - Helix-Core / Goose (Constitutional AI)**
+ 
+Dear Thomas,
+
+Here are the specific details requested for our entity validation:
+
+*   Company Website: https://helixprojectai.com/
+*   Company Repo: https://github.com/helixprojectai-code/HELIX-CORE
+*   Contact Full Name: Stephen Hope
+*   Legal Entity Name: Helix AI Innovations Inc. / Innovations Helix IA Inc.
+*   Company Email: helix.project.ai@helixprojectai.com
+*   Company Address: 110 Gloucester St, #17, Ottawa, ON, K2P 0A2, Canada
+*   AWS 12-digit ID: 7546-3920-1005
+
+Regarding our infrastructure, our primary server (The Quebec Node) is physically located in Beauharnois, Quebec (BHS8). This ensures all data operations on that node fall under Quebec provincial privacy standards.
+
+I am finalizing the demo recording of our Constitutional Blinding test and will send that link shortly.
+
+Sincerely,
+
+Stephen Hope
+Helix AI Innovations Inc.
+
+---
+**On Tue, Jan 20, 2026 at 10:50 PM Tom Holt <tom@novolo.ai> wrote:**
+
+Thanks, I'll put the verification through now. Looking forward to the video!
+
+Thomas
+
+---
+**From: Stephen Hope <sbhope@gmail.com>**
+**Sent: Wednesday, Jan 21, 2026 12:44 AM**
+**To: Tom Holt <tom@novolo.ai>**
+
+Tom,
+
+I've hosted the mp4 on our website server: https://helixprojectai.com/demo/assets/Novolo_deom%202026-01-21%2000-35-55.mp4
+
+Apologies for the delay, and the raw nature.
+
+Cheers,
+
+Stephen
