@@ -9,18 +9,38 @@ import sys
 import hashlib
 import subprocess
 from typing import Optional, Dict, Any
+import csv
 
 import requests
 
 class PricingEngineV9_Stable:
-    # Corrected typo: BASE_MARKer_COSTS -> BASE_MARKER_COSTS
     BASE_MARKER_COSTS = {"[FACT]": 15, "[REASONED]": 10, "[HYPOTHESIS]": 5}
     LOG_FILE = "audit_log.json"
     FEE_API_URL = "https://mempool.space/api/v1/fees/recommended"
+    ECONOMY_LEDGER_FILE = "economy_ledger.txt"
+    INITIAL_BALANCE_SATS = 200000
     
     DAILY_BURN_RATE = 1000
     RUNWAY_THRESHOLD_DAYS = 30
     POW_DIFFICULTY = 4
+
+    def get_current_balance(self) -> int:
+        total_cost = 0
+        try:
+            with open(self.ECONOMY_LEDGER_FILE, 'r') as f:
+                reader = csv.reader(f)
+                next(reader)  # Skip header
+                for row in reader:
+                    if len(row) > 2 and row[2].isdigit():
+                        total_cost += int(row[2])
+        except FileNotFoundError:
+            print(f"Warning: {self.ECONOMY_LEDGER_FILE} not found. Assuming zero cost.")
+            return self.INITIAL_BALANCE_SATS
+        except Exception as e:
+            print(f"Error reading economy ledger: {e}")
+            return self.INITIAL_BALANCE_SATS - total_cost
+
+        return self.INITIAL_BALANCE_SATS - total_cost
 
     def _scrub_pii(self, text: str) -> str:
         email_pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
@@ -62,7 +82,6 @@ class PricingEngineV9_Stable:
         if not marker: return
 
         multiplier = self._get_network_multiplier()
-        # Corrected typo: self.BASE_MARKer_COSTS -> self.BASE_MARKER_COSTS
         base_cost = self.BASE_MARKER_COSTS[marker.group(0)]
         dynamic_cost = int(base_cost * multiplier)
 
@@ -84,21 +103,24 @@ class PricingEngineV9_Stable:
 
 if __name__ == "__main__":
     engine = PricingEngineV9_Stable()
-    print("--- Running Hardened Sovereign Metabolism Simulation (V9 Stable) ---")
-    
-    # Corrected SyntaxError: Replaced unterminated string with separate print() calls.
-    print()
-    print("--- SCENARIO 1: Sufficient fuel, action is processed. ---")
-    engine.process_and_settle(
-        "[FACT] User stephen@example.com connected from 192.168.1.100.",
-        "user_login_audit",
-        current_balance_sats=197340
-    )
+    if "--balance" in sys.argv:
+        balance = engine.get_current_balance()
+        print(f"Current Balance: {balance} sats")
+    else:
+        print("--- Running Hardened Sovereign Metabolism Simulation (V9 Stable) ---")
+        
+        print()
+        print("--- SCENARIO 1: Sufficient fuel, action is processed. ---")
+        engine.process_and_settle(
+            "[FACT] User stephen@example.com connected from 192.168.1.100.",
+            "user_login_audit",
+            current_balance_sats=197340
+        )
 
-    print()
-    print("--- SCENARIO 2: Low fuel, action is halted by RAG Bands. ---")
-    engine.process_and_settle(
-        "[REASONED] This action is too expensive given the low fuel state.",
-        "costly_operation",
-        current_balance_sats=29000
-    )
+        print()
+        print("--- SCENARIO 2: Low fuel, action is halted by RAG Bands. ---")
+        engine.process_and_settle(
+            "[REASONED] This action is too expensive given the low fuel state.",
+            "costly_operation",
+            current_balance_sats=29000
+        )
