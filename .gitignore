@@ -1,3 +1,4 @@
+
 # Python cache
 __pycache__/
 *.pyc
@@ -9,3 +10,6 @@ __pycache__/
 
 # Virtual Environment
 .venv/
+
+# GOOSE-CORE private journal
+goose-core-journal/
